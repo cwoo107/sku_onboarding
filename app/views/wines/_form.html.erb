@@ -10,12 +10,12 @@
       </ul>
     </div>
   <% end %>
-
+  <% if wine.sku.present? %>
   <div class="field">
     <%= form.label :sku %>
     <%= form.text_field :sku, class: 'form-control' %>
   </div>
-
+  <% end %>
   <div class="field">
     <%= form.label :supplier %>
     <%= form.text_field :supplier, class: 'form-control' %>
@@ -98,7 +98,7 @@
 
   <div class="field">
     <%= form.label :blend %>
-    <%= form.check_box :blend, class: 'form-control' %>
+    <%= form.check_box :blend %>
   </div>
 
   <div class="field">
