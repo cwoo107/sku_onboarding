@@ -13,3 +13,9 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+    font-size: 12px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
