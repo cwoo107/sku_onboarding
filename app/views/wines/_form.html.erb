@@ -13,100 +13,100 @@
 
   <div class="field">
     <%= form.label :sku %>
-    <%= form.text_field :sku %>
+    <%= form.text_field :sku, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :supplier %>
-    <%= form.text_field :supplier %>
+    <%= form.text_field :supplier, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :producer %>
-    <%= form.text_field :producer %>
+    <%= form.text_field :producer, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :cuvee %>
-    <%= form.text_field :cuvee %>
+    <%= form.text_field :cuvee, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :grape_variety %>
-    <%= form.text_field :grape_variety %>
+    <%= form.text_field :grape_variety, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :style %>
-    <%= form.text_field :style %>
+    <%= form.text_field :style, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :vintage %>
-    <%= form.text_field :vintage %>
+    <%= form.text_field :vintage, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :btl_size %>
-    <%= form.number_field :btl_size %>
+    <%= form.number_field :btl_size, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :btls_case %>
-    <%= form.number_field :btls_case %>
+    <%= form.number_field :btls_case, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :cost_case %>
-    <%= form.text_field :cost_case %>
+    <%= form.text_field :cost_case, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :appellation %>
-    <%= form.text_field :appellation %>
+    <%= form.text_field :appellation, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :app_ii %>
-    <%= form.text_field :app_ii %>
+    <%= form.text_field :app_ii, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :region %>
-    <%= form.text_field :region %>
+    <%= form.text_field :region, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :country %>
-    <%= form.text_field :country %>
+    <%= form.text_field :country, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :classification %>
-    <%= form.text_field :classification %>
+    <%= form.text_field :classification, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :abv %>
-    <%= form.text_field :abv %>
+    <%= form.text_field :abv, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :other %>
-    <%= form.text_field :other %>
+    <%= form.text_field :other, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :blend %>
-    <%= form.check_box :blend %>
+    <%= form.check_box :blend, class: 'form-control' %>
   </div>
 
   <div class="field">
     <%= form.label :blend_grapes %>
-    <%= form.text_field :blend_grapes %>
+    <%= form.text_field :blend_grapes, class: 'form-control' %>
   </div>
-
+<br/>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit 'submit', class: 'btn btn btn-secondary' %>
   </div>
 <% end %>
