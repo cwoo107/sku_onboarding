@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+###This is an example of the SKU onboarding feature.
 
-Things you may want to cover:
+Filling out the form automatically populates the SKU using the following fields:
 
-* Ruby version
+* PRODUCER
 
-* System dependencies
+* CUVEE
 
-* Configuration
+* APPELLATION
 
-* Database creation
+* VINTAGE
 
-* Database initialization
+* GRAPE/VARIETY
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
