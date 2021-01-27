@@ -7,6 +7,11 @@ class WinesController < ApplicationController
     @wines = Wine.all
   end
 
+  def wine_details
+    @wines = Wine.all
+    @detail = params[:wine_details]
+  end
+
   # GET /wines/1
   # GET /wines/1.json
   def show

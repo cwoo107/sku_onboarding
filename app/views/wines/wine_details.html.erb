@@ -1,0 +1,9 @@
+<%= turbo_frame_tag 'wines' do %>
+  <%= render partial: 'wines/links' %>
+
+  <% if @detail == 'details' %>
+    <%= render partial: 'wines/details_table', locals: {wines: @wines} %>
+  <% else %>
+    <%= render partial: 'wines/suppliers_table', locals: {wines: @wines} %>
+  <% end %>
+<% end %>

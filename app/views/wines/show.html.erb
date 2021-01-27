@@ -1,99 +1,113 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Sku:</strong>
-  <%= @wine.sku %>
-</p>
+<div class="card">
+  <div class="card-body">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-9">
+          <h1>
+            <%= @wine.sku %>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <p>
+      <strong>Sku:</strong>
+      <%= @wine.sku %>
+    </p>
 
-<p>
-  <strong>Supplier:</strong>
-  <%= @wine.supplier %>
-</p>
+    <p>
+      <strong>Supplier:</strong>
+      <%= @wine.supplier %>
+    </p>
 
-<p>
-  <strong>Producer:</strong>
-  <%= @wine.producer %>
-</p>
+    <p>
+      <strong>Producer:</strong>
+      <%= @wine.producer %>
+    </p>
 
-<p>
-  <strong>Cuvee:</strong>
-  <%= @wine.cuvee %>
-</p>
+    <p>
+      <strong>Cuvee:</strong>
+      <%= @wine.cuvee %>
+    </p>
 
-<p>
-  <strong>Grape variety:</strong>
-  <%= @wine.grape_variety %>
-</p>
+    <p>
+      <strong>Grape variety:</strong>
+      <%= @wine.grape_variety %>
+    </p>
 
-<p>
-  <strong>Style:</strong>
-  <%= @wine.style %>
-</p>
+    <p>
+      <strong>Style:</strong>
+      <%= @wine.style %>
+    </p>
 
-<p>
-  <strong>Vintage:</strong>
-  <%= @wine.vintage %>
-</p>
+    <p>
+      <strong>Vintage:</strong>
+      <%= @wine.vintage %>
+    </p>
 
-<p>
-  <strong>Btl size:</strong>
-  <%= @wine.btl_size %>
-</p>
+    <p>
+      <strong>Btl size:</strong>
+      <%= @wine.btl_size %>
+    </p>
 
-<p>
-  <strong>Btls case:</strong>
-  <%= @wine.btls_case %>
-</p>
+    <p>
+      <strong>Btls case:</strong>
+      <%= @wine.btls_case %>
+    </p>
 
-<p>
-  <strong>Cost case:</strong>
-  <%= @wine.cost_case %>
-</p>
+    <p>
+      <strong>Cost case:</strong>
+      <%= @wine.cost_case %>
+    </p>
 
-<p>
-  <strong>Appellation:</strong>
-  <%= @wine.appellation %>
-</p>
+    <p>
+      <strong>Appellation:</strong>
+      <%= @wine.appellation %>
+    </p>
 
-<p>
-  <strong>App ii:</strong>
-  <%= @wine.app_ii %>
-</p>
+    <p>
+      <strong>App ii:</strong>
+      <%= @wine.app_ii %>
+    </p>
 
-<p>
-  <strong>Region:</strong>
-  <%= @wine.region %>
-</p>
+    <p>
+      <strong>Region:</strong>
+      <%= @wine.region %>
+    </p>
 
-<p>
-  <strong>Country:</strong>
-  <%= @wine.country %>
-</p>
+    <p>
+      <strong>Country:</strong>
+      <%= @wine.country %>
+    </p>
 
-<p>
-  <strong>Classification:</strong>
-  <%= @wine.classification %>
-</p>
+    <p>
+      <strong>Classification:</strong>
+      <%= @wine.classification %>
+    </p>
 
-<p>
-  <strong>Abv:</strong>
-  <%= @wine.abv %>
-</p>
+    <p>
+      <strong>Abv:</strong>
+      <%= @wine.abv %>
+    </p>
 
-<p>
-  <strong>Other:</strong>
-  <%= @wine.other %>
-</p>
+    <p>
+      <strong>Other:</strong>
+      <%= @wine.other %>
+    </p>
 
-<p>
-  <strong>Blend:</strong>
-  <%= @wine.blend %>
-</p>
+    <p>
+      <strong>Blend:</strong>
+      <%= @wine.blend %>
+    </p>
 
-<p>
-  <strong>Blend grapes:</strong>
-  <%= @wine.blend_grapes %>
-</p>
+    <p>
+      <strong>Blend grapes:</strong>
+      <%= @wine.blend_grapes %>
+    </p>
+  </div>
+</div>
+
 
 <%= link_to 'Edit', edit_wine_path(@wine) %> |
 <%= link_to 'Back', wines_path %>

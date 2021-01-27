@@ -1,0 +1,32 @@
+
+<div class="table-responsive">
+  <table class="table table-hover ">
+    <thead>
+    <tr>
+      <th scope="col">SKU</th>
+      <th scope="col">supplier</th>
+      <th scope="col">producer</th>
+      <th scope="col">Btl_Size</th>
+      <th scope="col">Btls/Case</th>
+      <th scope="col">Cost/Case</th>
+      <th colspan="3"></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% wines.each do |wine| %>
+      <tr scope="row">
+        <td style="font-weight: bold;"><%= wine.sku %></td>
+        <td><%= wine.supplier %></td>
+        <td><%= wine.producer %></td>
+        <td><%= wine.btl_size %></td>
+        <td><%= wine.btls_case %></td>
+        <td><%= wine.cost_case %></td>
+        <td><%= link_to 'View', wine %></td>
+        <td><%= link_to 'Edit', edit_wine_path(wine) %></td>
+        <td><%= link_to 'Delete', wine, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
