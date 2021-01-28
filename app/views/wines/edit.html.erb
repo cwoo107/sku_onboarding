@@ -1,9 +1,10 @@
 <h1>Editing Wine</h1>
 
-<%= turbo_frame_tag dom_id(@wine) do %>
-  <tr scope="row">
+<%= turbo_frame_tag 'wines' do %>
+  <div class="w-full">
     <%= render 'form', wine: @wine %>
-  </tr>
+  </div>
+  <%= link_to 'Show', @wine %> |
+  <%= link_to 'Back', wines_path %>
 <% end %>
-<%= link_to 'Show', @wine %> |
-<%= link_to 'Back', wines_path %>
+
